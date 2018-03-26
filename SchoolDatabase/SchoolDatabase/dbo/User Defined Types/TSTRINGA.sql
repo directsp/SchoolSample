@@ -1,0 +1,2 @@
+CREATE TYPE [dbo].[TSTRINGA] FROM varchar (8000) NULL
+GO

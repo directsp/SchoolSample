@@ -1,0 +1,6 @@
+﻿CREATE FUNCTION [dspUtil].[FormatString] (@str TSTRING)
+RETURNS TSTRING
+AS
+BEGIN
+	RETURN NULLIF(TRIM(@str), '');
+END;

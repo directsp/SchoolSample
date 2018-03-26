@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE [dspUtil].[ServerName]
+AS
+BEGIN
+	SELECT  @@SERVERNAME;
+END;

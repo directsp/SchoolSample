@@ -1,0 +1,2 @@
+CREATE TYPE [dbo].[TCONTEXT] FROM nvarchar (4000) NULL
+GO

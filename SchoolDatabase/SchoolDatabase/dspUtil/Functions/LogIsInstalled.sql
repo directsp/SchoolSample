@@ -1,0 +1,6 @@
+﻿CREATE FUNCTION [dspUtil].[LogIsInstalled] ()
+RETURNS BIT WITH SCHEMABINDING
+AS
+BEGIN
+	RETURN IIF(OBJECT_ID('dspUtil.LogFilterSetting') IS NOT NULL, 1, 0);
+END;
