@@ -1,2 +1,3 @@
-CREATE TYPE [dbo].[TJSON] FROM nvarchar (max) NULL
-GO
+﻿CREATE TYPE [dbo].[TJSON]
+    FROM NVARCHAR (MAX) NULL;
+
